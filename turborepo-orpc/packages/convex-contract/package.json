@@ -14,7 +14,9 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsc -p tsconfig.build.json",
+    "clean": "rm -rf dist",
+    "build": "bun run clean && tsc -p tsconfig.build.json",
+    "dev": "bun run clean && tsc -p tsconfig.build.json --watch",
     "lint": "eslint ."
   },
   "type": "module",
