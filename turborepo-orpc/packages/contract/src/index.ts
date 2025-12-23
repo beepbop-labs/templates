@@ -1,1 +1,1 @@
-export * from "./orpc";
+export { orpcContract } from "./orpc";
