@@ -1,5 +1,5 @@
 {
-  "name": "@org/contract",
+  "name": "@org/orpc-contract",
   "version": "0.0.0",
   "type": "module",
   "exports": {
