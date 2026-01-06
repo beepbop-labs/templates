@@ -13,10 +13,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      suppressHydrationWarning
-    >
+    <html lang="en" suppressHydrationWarning>
       <head>
         <Favicon />
       </head>
@@ -29,7 +26,7 @@ const Favicon = () => {
   return (
     <link
       rel="icon"
-      href="https://raw.githubusercontent.com/bigbang-sdk/assets/refs/heads/main/bigbang/favicon/favicon.ico"
+      href="https://raw.githubusercontent.com/beepbop-labs/assets/refs/heads/main/beepbop/favicon/favicon.ico"
       sizes="any"
     />
   );
